@@ -13,4 +13,4 @@ Example :
 The opencellid database is formatted as follow :
 radio,mcc,net,area,cell,unit,lon,lat,range,samples,changeable,created,updated,averageSignal
 
-So it needs to be converted.
+So it needs to be converted. You can use the selected_mcc_from_opencell.py script to extract all entries based on the MCC (country code) from the opencellid db.
